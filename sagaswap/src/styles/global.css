@@ -1,0 +1,10 @@
+*{
+    /* background: none; */
+    border: none;
+    padding: none;
+
+}
+
+:root{
+    --primary-color : red;
+}
