@@ -1,20 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export  function Heading({ a , b}) {
-  l1[one, two] = a , b;
-
-  
-  
-  
-  
-  
-    return (
-      <Text>
-    { one }      
-      </Text>
-
-  )
+export default function Heading(props) {
+const a=props.fword[0];
+    
+  return (
+<>
+<h1>
+{ a } , { props.sword }
+</h1>
+</>
+    )
 }
-
-const styles = StyleSheet.create({})
